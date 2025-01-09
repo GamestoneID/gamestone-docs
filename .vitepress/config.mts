@@ -5,8 +5,10 @@ export default defineConfig({
   title: "Gamestone Docs",
   description:
     "Explore detailed guides, FAQs, and developer resources to unlock the full potential of Gamestone.",
+  head: [["link", { rel: "icon", href: "/favicon.ico" }]],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    logo: "/logo.png",
     nav: [
       { text: "Beranda", link: "/" },
       { text: "Gabung Mitra", link: "https://gamestone.id/kemitraan" },
